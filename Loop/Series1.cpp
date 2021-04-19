@@ -4,15 +4,14 @@
 using namespace std;
 int main()
 {
-    float n,z=0;
-    cin>>n;
-    /*
+    float n=3,z=0;
+    //cin>>n;
     for(int i=1;i<=n;i++)
     {
         z=z+i;
     }
-    */
-    z = n/2*(n+1);
+
+    //z = n/2*(n+1);
     cout<<z;
     return 0;
 }
